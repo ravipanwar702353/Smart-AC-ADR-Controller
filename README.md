@@ -69,7 +69,8 @@ graph TD
     D --> E{Has Temp Risen by +1°C?}
     E -- Yes --> F[Turn ON Compressor Automatically]
     E -- No --> D
-    F --> A```
+    F --> A
+```
 💻 Firmware & Software Setup
 1. Connection & Initial Setup
 Mount the Puck onto the AC chassis and plug the Hub into a nearby power outlet.
