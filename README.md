@@ -71,8 +71,8 @@ graph TD
     E -- No --> D
     F --> A
 ```
-💻 Firmware & Software Setup
-1. Connection & Initial Setup
+## 💻 Firmware & Software Setup
+## 1. Connection & Initial Setup
 Mount the Puck onto the AC chassis and plug the Hub into a nearby power outlet.
 Download and open the dedicated mobile application.
 Turn on Bluetooth on your phone to discover the Hub.
@@ -84,7 +84,7 @@ IDE: Arduino IDE or VS Code with PlatformIO.
 Core Libraries: * BLEDevice / BLERemoteCharacteristic (for Hub-Puck communication)
 WiFi / PubSubClient (for MQTT cloud syncing)
 Low-power sleep libraries for the Puck's Lithium battery optimization.
-👥 Authors & Acknowledgments
+## 👥 Authors & Acknowledgments
 Flock Energy — Core Product Development, Patent, & Hardware Manufacturing.
 JVVNL (Jaipur Vidyut Vitran Nigam Limited) — Utility Partner providing infrastructure insights and Demand Response frameworks.
 * **Ravi Panwar** — Engineering Intern.
