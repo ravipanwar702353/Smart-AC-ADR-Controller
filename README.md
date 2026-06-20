@@ -78,10 +78,10 @@ graph TD
 3. Turn on Bluetooth on your phone to discover the Hub.
 4. Pass your local Wi-Fi network credentials through the app to establish an internet connection for the Hub.
 5. The Hub and Puck will automatically handshake over BLE.
-2. Development Prerequisites (For Developers)
+## 2. Development Prerequisites (For Developers)
 To modify or flash firmware to the Hub or Puck microcontrollers:
-IDE: Arduino IDE or VS Code with PlatformIO.
-Core Libraries: * BLEDevice / BLERemoteCharacteristic (for Hub-Puck communication)
+**IDE:** Arduino IDE or VS Code with PlatformIO.
+**Core Libraries:** BLEDevice / BLERemoteCharacteristic (for Hub-Puck communication)
 WiFi / PubSubClient (for MQTT cloud syncing)
 Low-power sleep libraries for the Puck's Lithium battery optimization.
 ## 👥 Authors & Acknowledgments
