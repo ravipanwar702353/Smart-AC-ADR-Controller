@@ -29,11 +29,13 @@ Utilities generally have two ways to manage these dangerous peak spikes:
 ## 🛠️ System Architecture & Hardware Components
 
 The system utilizes a split dual-device architecture to separate precise environmental sensing from power management and internet routing.
+```
 +------------------+                   +------------------+                   +------------------+
 |    The Puck      |  Bridges via BLE  |     The Hub      |  Connects via Wi-Fi  |    Mobile App    |
 | (Lithium Cell)   | ----------------> |  (Charging Port) | -------------------> |  & Cloud Server  |
 |  Thermal Sensor  |                   |   Power Relay    |                   | (User Control)   |
 +------------------+                   +------------------+                   +------------------+
+```
 ### 1. The Puck (Sensor Module)
 * **Power Source:** Internal Lithium cell battery (for long life and wire-free placement).
 * **Placement:** Sticked directly onto or near the AC unit.
